@@ -1,28 +1,35 @@
-# spring-boot-postgresql-vue-crud
+# Spring Boot + PostgreSQL + Vue.js CRUD: Full stack development example
 
-# Backend local setup 
+# After completing this tutorial what we will build? 
+We will build a full-stack web application that is a basic User Management Application with CRUD features: 
 
-Github repository download link is provided at the end of this tutorial 
+• Create User 
 
-Step 1: Download or clone the source code to a local machine. 
+• List User 
 
-Step 2: mvn clean install
+• Update User 
 
-Step 3: Run the Spring Boot application mvn spring-boot:run 
+• Delete User 
+
+• View User
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUPPhlpBYwwIsRB8zyFaA5yaFjrS-tWxp4BsnPW9XjXCUsyjafiOzuKMBGT5jSsqAdL2wKcyWtO15HwEKWqbjI_TYgRixk0uDQjWATaTshv_YK-QxqzU60-lJuVZ_xoCc65g1ZcbUi_VJ83YjhUTN_Yahdjr0KMcecsbCwZ-20A-6ApvPxRDyNBl-f2w/s1001/springboot-postgresql-vuejs-crud.webp">
 
 
+# Local Setup and Run the application
 
-# Frontend local setup
+Step 1: Download or clone the source code from GitHub to the local machine
 
+# Backend
 
-Step 1: The npm install installs all modules that are listed on package.json file and 
-             their dependencies
-             
-npm install
+Step 2:  ```mvn clean install```
 
-Step 2: Run the Frontend application
+Step 3:  ```mvn spring-boot:run```
 
-npm run serve
+# Frontend
 
- App running at:
-  - Local:http://localhost:8080/ 
+Step 4:  ```npm install```
+
+Step 5:  ```npm run serve```
+
+# From the browser call the endpoint http://localhost:8080/.
